@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #FFD9EC;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f86fb3;
+    color: #E4EEF1;
+}
+
+.boxHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    a {
+        font-size: 25px;
+        color: #E4EEF1;
+    }
+}
+
+ul a:hover {
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#section2 {
+    background-color: #FF69B4;
+}
+
+.container {
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.container p {
+    margin: 42px 0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    margin: 8px 12px;
+    justify-content: center;
+text-align: center;
+display: flex;
+}
+    .imagemRosa2 {
+        margin: 8px 12px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
